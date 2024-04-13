@@ -45,7 +45,7 @@ See the `./examples/` for insipiration.
 
 ## STEP 3
 Create the challenge!
-Run `bash ./compile.sh <flag>`
+Run `bash ./create_challenge.sh <flag>`
 (Replace `<flag>` with your flag)
 First, this will compile the program `./driver_encode`.
 This is a separate program that will pre-encode your flag.

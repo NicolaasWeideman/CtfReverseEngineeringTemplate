@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     flag_len = strlen(flag);
     encode(flag, flag_len, &encoded_flag, &encoded_flag_len);
     printf("-DENCODED_FLAG=\"");
-    for (i = 0; i < flag_len; i++) {
+    for (i = 0; i < encoded_flag_len; i++) {
         printf("\\x%02x", (unsigned char)encoded_flag[i]);
     }
     printf("\" -DENCODED_FLAG_LEN=%lu", encoded_flag_len);

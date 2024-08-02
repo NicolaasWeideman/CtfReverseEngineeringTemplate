@@ -30,7 +30,7 @@ It's also fine to keep to keep this line as it is
 ## STEP 2
 Now, you need to perform the encoding.
 The default loop:
-```
+```C
 for (i = 0; i < guess_len; i++) {
     encoded_guess[i] = guess[i];
 }
